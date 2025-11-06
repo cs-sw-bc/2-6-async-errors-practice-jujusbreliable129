@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(135deg, #ff6f61, #8b0000);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #222;
+  border: 2px solid #dc3545;
+}
+
+input, select {
+  background-color: #333 !important;
+  color: #fff !important;
+  border: 1px solid #dc3545 !important;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+#orderBtn:hover {
+  background-color: #b91c1c;
+}
+
+#result {
+  font-size: 1.2rem;
+  font-weight: bold;
+  min-height: 50px;
+}
+
+.success {
+  color: #00ff99;
+}
+
+.error {
+  color: #ff4444;
+}
+
+.waiting {
+  color: #ffcc00;
+}
+footer {
+  background-color: #111;
+  padding: 15px 0;
+}
